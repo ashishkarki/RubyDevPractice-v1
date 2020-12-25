@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@prettier/plugin-ruby": "^1.1.0",
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "format": "./node_modules/.bin/prettier --write ./src/*.rb"
+  }
+}
